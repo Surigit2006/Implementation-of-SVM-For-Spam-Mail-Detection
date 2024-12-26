@@ -34,7 +34,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, accuracy_score
 
 
-file_path = r"C:\Users\sudharshan\Downloads\spam.csv"
+file_path = r"C:\Users\suriya\Downloads\spam.csv"
 data = pd.read_csv(file_path, encoding='latin-1')
 
 print(data.head())
